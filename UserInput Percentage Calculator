@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class Percentage {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+    System.out.println("Enter Subject1 Marks : ");
+    double Sub1 = sc.nextDouble();
+    
+    System.out.println("Enter Subject2 Marks : ");
+    double Sub2 = sc.nextDouble();
+    
+    System.out.println("Enter Subject3 Marks : ");
+    double Sub3 = sc.nextDouble();
+    
+    System.out.println("Enter Subject4 Marks : ");
+    double Sub4 = sc.nextDouble();
+    
+    System.out.println("Enter Subject5 Marks : ");
+    double Sub5 = sc.nextDouble();
+		
+		double per = ((Sub1 + Sub2 + Sub3 + Sub4 + Sub5)/500)*100 ;
+		
+		System.out.println("Your Percentage is : " + per);
+		
+	}
+
+}
